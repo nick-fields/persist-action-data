@@ -1,0 +1,15 @@
+name: Persist Data Between Jobs
+description: Allows data to be persisted between different jobs and accessible via environment variable and output
+inputs:
+  data:
+    description: The data to persist from job
+    required: false
+  variable:
+    description: The variable to be used to access data in other jobs
+    required: false
+  retrieve_variables:
+    description: Comma delimited list of variables to load into job
+    required: false
+runs:
+  using: node12
+  main: out/index.js
