@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Persist Data Between Jobs',
   description: {
-    short: 'Allows data to be persisted between jobs and accessed via env variables and step output',
+    short: 'Allows data to be shared between jobs and accessed via env variables and step output',
   },
   inputs: [
     {

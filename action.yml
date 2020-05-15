@@ -1,5 +1,5 @@
 name: Persist Data Between Jobs
-description: Allows data to be persisted between jobs and accessed via env variables and step output
+description: Allows data to be shared between jobs and accessed via env variables and step output
 inputs:
   data:
     description: The data to persist from job

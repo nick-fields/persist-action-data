@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
-Allows data to be persisted between jobs and accessed via env variables and step output
+Allows data to be shared between jobs and accessed via env variables and step output
 
 ---
 
