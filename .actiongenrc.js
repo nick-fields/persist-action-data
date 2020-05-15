@@ -67,4 +67,8 @@ module.exports = {
       },
     ],
   },
+  branding: {
+    color: 'green',
+    icon: 'save',
+  },
 };
