@@ -1,6 +1,8 @@
 # Persist Data Between Jobs
 
-Allows data to be persisted between different jobs and accessible via environment variable and output
+[![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
+Allows data to be persisted between jobs and accessed via env variables and step output
 
 ---
 

@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Persist Data Between Jobs',
   description: {
-    short: 'Allows data to be persisted between different jobs and accessible via environment variable and output',
+    short: 'Allows data to be persisted between jobs and accessed via env variables and step output',
   },
   inputs: [
     {
@@ -71,4 +71,11 @@ module.exports = {
     color: 'green',
     icon: 'save',
   },
+  badges: [
+    {
+      displayedText: 'License: MIT',
+      badgeUrl: 'https://img.shields.io/badge/license-MIT-brightgreen.svg',
+      link: 'https://opensource.org/licenses/MIT',
+    },
+  ],
 };
