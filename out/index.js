@@ -1495,7 +1495,9 @@ async function loadData(variables){
             core.warning(`Variable ${v} not found`)
         }
         core.setOutput(v, data);
-        core.exportVariable(v, data)
+        core.exportVariable(v, data);
+        // store the same data with a fixed prefix so it can be iterated over if needed
+        core.exportVariable(`persist-action-data-${v}`, data);
     }
 }
 
