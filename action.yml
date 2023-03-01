@@ -11,7 +11,7 @@ inputs:
     description: Comma delimited list of variables to load into job
     required: false
 runs:
-  using: node12
+  using: node16
   main: out/index.js
 branding:
   icon: save
